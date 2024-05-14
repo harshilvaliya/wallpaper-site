@@ -6,15 +6,9 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/icon.png" />
-          <meta
-            name="description"
-            content="See pictures from Next.js Conf and the After Party."
-          />
-          <meta property="og:site_name" content="nextjsconf-pics.vercel.app" />
-          <meta
-            property="og:description"
-            content="See pictures from Next.js Conf and the After Party."
-          />
+          <meta name="description" content="Browse the wallpapers..." />
+          <meta property="og:site_name" content="bhitchitram.netlify.app/" />
+          <meta property="og:description" content="Browse the wallpapers..." />
           <meta property="og:title" content="BhitChitram" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="BhitChitram" />
