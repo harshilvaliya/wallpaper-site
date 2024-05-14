@@ -15,13 +15,10 @@ class MyDocument extends Document {
             property="og:description"
             content="See pictures from Next.js Conf and the After Party."
           />
-          <meta property="og:title" content="Next.js Conf 2022 Pictures" />
+          <meta property="og:title" content="BhitChitram" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
-          <meta
-            name="twitter:description"
-            content="See pictures from Next.js Conf and the After Party."
-          />
+          <meta name="twitter:title" content="BhitChitram" />
+          <meta name="twitter:description" content="wallpapers made by me" />
         </Head>
         <body className="bg-black antialiased">
           <Main />
