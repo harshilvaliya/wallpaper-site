@@ -41,7 +41,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>भित्तचित्रम्</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://bhitchitram/og-image.png"
         />
         {/* <meta
           name="twitter:image"
