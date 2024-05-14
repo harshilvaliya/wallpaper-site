@@ -131,7 +131,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </small>
         <p className="text-xs">
           <span className="font-semibold">About this website:</span> built with
-          Next.js, TypeScript, Tailwind CSS, Framer Motion, Vercel hosting.
+          Next.js, TypeScript, Tailwind CSS, Framer Motion, Netlify hosting.
         </p>
       </footer>
       {/* </footer> */}
