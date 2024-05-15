@@ -8,6 +8,12 @@
   }
 }
 
+::selection{
+  background-color: rgb(31, 41, 55);
+  color: red;
+}
+
+
 body::-webkit-scrollbar {
   width: 14px; /* width of the entire scrollbar */
 }
