@@ -10,7 +10,7 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="bhitchitram.netlify.app/" />
           <meta property="og:description" content="Browse the wallpapers..." />
           <meta property="og:title" content="BhitChitram" />
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:card" content="image" />
           <meta name="twitter:title" content="BhitChitram" />
           <meta name="twitter:description" content="wallpapers made by me" />
         </Head>
