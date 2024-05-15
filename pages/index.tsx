@@ -32,16 +32,13 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
     window.location.href = "mailto:harshilvaliya.work@gmail.com";
   };
 
-  // Shuffle the images array
-  const shuffledImages = [...images].sort(() => Math.random() - 0.5);
-
   return (
     <main className="bg-stone-800">
       <Head>
         <title>भित्तचित्रम्</title>
         <meta
           property="og:image"
-          content="https://bhitchitram/og-image.png"
+          content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
         {/* <meta
           name="twitter:image"
@@ -89,7 +86,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               Request Here
             </Button> */}
           </div>
-          {shuffledImages.map(({ id, public_id, format, blurDataUrl }) => (
+          {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
               key={id}
               href={`/?photoId=${id}`}
@@ -131,7 +128,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </small>
         <p className="text-xs">
           <span className="font-semibold">About this website:</span> built with
-          Next.js, TypeScript, Tailwind CSS, Framer Motion, Netlify hosting.
+          Next.js, TypeScript, Tailwind CSS, Framer Motion, Vercel hosting.
         </p>
       </footer>
       {/* </footer> */}
@@ -170,12 +167,9 @@ export async function getStaticProps() {
     reducedResults[i].blurDataUrl = imagesWithBlurDataUrls[i];
   }
 
-  // Shuffle the array here
-  const shuffledResults = [...reducedResults].sort(() => Math.random() - 0.5);
-
   return {
     props: {
-      images: shuffledResults,
+      images: reducedResults,
     },
   };
 }
