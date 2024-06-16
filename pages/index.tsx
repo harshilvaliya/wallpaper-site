@@ -113,6 +113,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           ))}
         </div>
       </main>
+
       {/* <footer className="p-6 text-center text-white/80 sm:p-12"> */}
       <footer className="mt-10 bg-stone-800 px-4 pb-10 text-center text-white/80">
         <small className="mb-2 block text-xs">
